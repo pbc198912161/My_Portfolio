@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>P Bharath Chowdary | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ==============================
+       NAVBAR
+  ============================== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Bharath<span>.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about"     onclick="closeMenu()">About</a></li>
+        <li><a href="#skills"    onclick="closeMenu()">Skills</a></li>
+        <li><a href="#projects"  onclick="closeMenu()">Projects</a></li>
+        <li><a href="#startup"   onclick="closeMenu()">Startup</a></li>
+        <li><a href="#education" onclick="closeMenu()">Experience</a></li>
+        <li><a href="#interests" onclick="closeMenu()">Interests</a></li>
+        <li><a href="#contact"   onclick="closeMenu()">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==============================
+       HERO SECTION
+  ============================== -->
+  <section id="home" class="hero">
+    <div class="hero-bg-circles">
+      <div class="circle c1"></div>
+      <div class="circle c2"></div>
+      <div class="circle c3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting">👋 Hey there, I'm</p>
+      <h1 class="hero-name">P Bharath Chowdary</h1>
+      <p class="hero-roles">
+        I'm a <span id="typed-text" class="typed-text"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-bio">
+        BCA Undergrad at Akash Group of Institutions, Bengaluru.
+        Building technology that creates meaningful social impact.<br> <br>
+        <br>
+        BCA Undergrad | Computer Science Student | Startup Founder | Poet | Learning, Building, & Innovating.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact"  class="btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/pbc198912161"     target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://hostlink.site/6qPf6U"         target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:bharathchowdary1826@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="profile-image-wrap">
+  <img src="Assests/Formal_Blazer_Tie.png" alt="P Bharath Chowdary" />
+</div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       ABOUT SECTION
+  ============================== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About <span>Me</span></h2>
+      <div class="about-grid">
+        <div class="about-text fade-in">
+          <p>
+            I'm <strong>Bharath</strong>, a highly motivated second-year Bachelor of Computer
+            Applications (BCA) student at the <strong>Akash Group of Institutions in Bengaluru</strong>.
+            My core objective is to utilize technology to achieve a meaningful social impact.
+          </p>
+          <p>
+            I actively explore and integrate <strong>Artificial Intelligence (AI)</strong> into my
+            learning. I'm deeply passionate about cybersecurity, prompt engineering, and building
+            AI-powered products. Currently focused on building the foundational technical expertise
+            required to establish my own startup.
+          </p>
+          <p>
+            Beyond tech, I'm a <strong>published poet</strong> with three poetry books. I believe
+            creativity and technology together can change the world.
+          </p>
+          <div class="about-stats">
+            <div class="stat-box">
+              <span class="stat-num">3</span>
+              <span class="stat-label">Poetry Books</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">7+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">2nd</span>
+              <span class="stat-label">Year BCA</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">1</span>
+              <span class="stat-label">Startup Founded</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-details fade-in">
+          <div class="detail-item">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+              <strong>Education</strong>
+              <span>BCA — Akash Group of Institutions, Bengaluru</span>
+            </div>
+          </div>
+          <div class="detail-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Location</strong>
+              <span>Bengaluru, Karnataka, India</span>
+            </div>
+          </div>
+          <div class="detail-item">
+            <i class="fas fa-lightbulb"></i>
+            <div>
+              <strong>Focus Areas</strong>
+              <span>AI, Cybersecurity, Full Stack, Startups</span>
+            </div>
+          </div>
+          <div class="detail-item">
+            <i class="fas fa-rocket"></i>
+            <div>
+              <strong>Currently</strong>
+              <span>Building my startup & completing CODTECH internship</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn-primary" style="margin-top:1.5rem; display:inline-block;">
+            Hire Me
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       SKILLS SECTION
+  ============================== -->
+  <section id="skills" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Skills & <span>Expertise</span></h2>
+      <p class="section-sub">A broad and growing skillset across AI, security, development and creativity.</p>
+
+      <div class="skills-grid">
+
+        <div class="skill-card fade-in">
+          <div class="skill-card-icon"><i class="fas fa-brain"></i></div>
+          <h3>AI & Prompt Engineering</h3>
+          <ul>
+            <li>Prompt Engineering</li>
+            <li>Front End with Prompt Engineering</li>
+            <li>Image Generation with Accuracy</li>
+            <li>JSON Prompts</li>
+            <li>Claude AI CLI</li>
+            <li>Understanding LLMs</li>
+            <li>Handling LLMs via Prompt Engineering</li>
+            <li>Mastering AI Agents</li>
+          </ul>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-card-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Cybersecurity & Networking</h3>
+          <ul>
+            <li>Cybersecurity Fundamentals</li>
+            <li>Networking Basics</li>
+            <li>Ethical Hacking & Phases</li>
+            <li>Ciphers & Hashing</li>
+            <li>Sniffing & Spoofing</li>
+            <li>TCP & UDP Deep Dive</li>
+            <li>Firewalls & VPNs</li>
+          </ul>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-card-icon"><i class="fas fa-tools"></i></div>
+          <h3>Security Tools</h3>
+          <ul>
+            <li>Wireshark</li>
+            <li>Nmap</li>
+            <li>Hashcat</li>
+            <li>John the Ripper</li>
+            <li>OpenVPN</li>
+            <li>Snort</li>
+            <li>SET (Social Engineer Toolkit)</li>
+          </ul>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-card-icon"><i class="fas fa-cloud"></i></div>
+          <h3>Technical & Cloud</h3>
+          <ul>
+            <li>AWS Basics</li>
+            <li>Basic Linux Commands</li>
+            <li>Git & GitHub (Expert)</li>
+            <li>Version Control & Branching</li>
+            <li>CI/CD Basics</li>
+          </ul>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-card-icon"><i class="fas fa-palette"></i></div>
+          <h3>Software & Design</h3>
+          <ul>
+            <li>Microsoft Office Suite</li>
+            <li>Canva & Poster Making</li>
+            <li>Presentation Skills</li>
+            <li>Self-Directed Technical Upskilling</li>
+          </ul>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-card-icon"><i class="fas fa-pen-nib"></i></div>
+          <h3>Creative & Professional</h3>
+          <ul>
+            <li>Creative Writing & Poetry</li>
+            <li>Song Lyrics Writing</li>
+            <li>Community Leadership</li>
+            <li>Event Organization</li>
+            <li>Public Speaking</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       PROJECTS SECTION
+  ============================== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">My <span>Projects</span></h2>
+      <p class="section-sub">Things I've built — from simple apps to full platforms.</p>
+
+      <div class="projects-grid">
+
+        <div class="project-card fade-in">
+          <div class="project-top">
+            <span class="project-tag">HTML · CSS · JS</span>
+            <div class="project-links">
+              <a href="https://github.com/pbc198912161" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Interactive Quiz Application</h3>
+          <p>A dynamic quiz app with timer, instant feedback, scoring, and category-based questions. Built with vanilla JavaScript — no frameworks.</p>
+          <div class="project-tech">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-top">
+            <span class="project-tag">React · WebSockets</span>
+            <div class="project-links">
+              <a href="https://github.com/pbc198912161" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Real-Time Chat Application</h3>
+          <p>A live chat app built with React and WebSockets. Features real-time messaging, join/leave system, message history and connection status.</p>
+          <div class="project-tech">
+            <span>React.js</span><span>WebSockets</span><span>Vite</span>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-top">
+            <span class="project-tag">HTML · CSS · JS</span>
+            <div class="project-links">
+              <a href="https://github.com/pbc198912161" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Personal Portfolio Website</h3>
+          <p>This portfolio itself — a responsive, dynamic personal site with smooth scroll, typing animations, and dark theme. Deployed on Netlify.</p>
+          <div class="project-tech">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-top">
+            <span class="project-tag">JS · API</span>
+            <div class="project-links">
+              <a href="https://github.com/pbc198912161" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Weather Dashboard</h3>
+          <p>A live weather app that fetches real-time weather data using OpenWeatherMap API. Shows temperature, humidity, wind speed and 5-day forecast.</p>
+          <div class="project-tech">
+            <span>JavaScript</span><span>REST API</span><span>CSS3</span>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-top">
+            <span class="project-tag">HTML · CSS · JS</span>
+            <div class="project-links">
+              <a href="https://github.com/pbc198912161" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Advanced To-Do List</h3>
+          <p>A feature-rich task manager with priorities, due dates, categories, local storage persistence and drag-to-reorder functionality.</p>
+          <div class="project-tech">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-top">
+            <span class="project-tag">HTML · CSS · JS</span>
+            <div class="project-links">
+              <a href="https://github.com/pbc198912161" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>E-Commerce Product Catalogue</h3>
+          <p>A fully styled product catalogue with search, filter by category, add-to-cart, and a clean responsive grid layout.</p>
+          <div class="project-tech">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-top">
+            <span class="project-tag">HTML · CSS · JS</span>
+            <div class="project-links">
+              <a href="https://github.com/pbc198912161" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>E-Learning Platform UI</h3>
+          <p>A multi-page e-learning interface with course listings, progress tracking, video embedding, and a clean student dashboard layout.</p>
+          <div class="project-tech">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       STARTUP SECTION
+  ============================== -->
+  <section id="startup" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title"><span>My Startup</span></h2>
+      <p class="section-sub">Something I'm building from scratch — with purpose.</p>
+
+      <div class="startup-card fade-in">
+
+        <!-- top header bar -->
+        <div class="startup-header">
+          <div class="startup-logo-wrap">
+            <span class="startup-logo-icon">📱</span>
+            <div>
+              <h3 class="startup-name">Zuvik</h3>
+              <span class="startup-tagline-top">Wake Up. Grow. Every Scroll Counts.</span>
+            </div>
+          </div>
+          <a href="https://zuvik.netlify.app/" target="_blank" class="startup-visit-btn">
+            Visit Landing Page <i class="fas fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+
+        <!-- main body -->
+        <div class="startup-body">
+
+          <!-- intro statement -->
+          <div class="startup-intro-box">
+            <span class="startup-quote-mark">"</span>
+            <p>
+              I'm building an app which is <strong>not purely an educational app</strong> and
+              <strong>not purely a social media app</strong> — it contains both components.
+              It feels like social media but works like a teacher.
+            </p>
+          </div>
+
+          <!-- two column: problem + solution -->
+          <div class="startup-two-col">
+
+            <div class="startup-col">
+              <div class="startup-col-icon problem-icon">
+                <i class="fas fa-exclamation-triangle"></i>
+              </div>
+              <h4>The Problem</h4>
+              <p>
+                The average person in India spends <strong>4.2 hours every day</strong> scrolling
+                through reels, shorts and feeds — and walks away with nothing real. People feel
+                guilty, try to stop, and keep coming back. It's not a willpower problem.
+                It's a design problem — and nobody has solved it the right way yet.
+              </p>
+            </div>
+
+            <div class="startup-col">
+              <div class="startup-col-icon solution-icon">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h4>The Solution</h4>
+              <p>
+                <strong>Zuvik</strong> keeps the same familiar scroll but replaces
+                the noise with short, AI-curated knowledge cards — each one takes just
+                15 seconds to read. The feed is personalised for every age group,
+                from students to senior citizens, so every swipe leaves you
+                smarter, calmer, or more inspired.
+              </p>
+            </div>
+
+          </div>
+
+          <!-- stat pills -->
+          <div class="startup-stats">
+            <div class="startup-stat">
+              <span class="s-num">4.2h</span>
+              <span class="s-label">Avg. daily screen time in India</span>
+            </div>
+            <div class="startup-stat">
+              <span class="s-num">600M+</span>
+              <span class="s-label">Smartphone users in India</span>
+            </div>
+            <div class="startup-stat">
+              <span class="s-num">All Ages</span>
+              <span class="s-label">16 to 70+ — built for everyone</span>
+            </div>
+            <div class="startup-stat">
+              <span class="s-num">~0 min</span>
+              <span class="s-label">Useful knowledge from most reels</span>
+            </div>
+          </div>
+
+          <!-- bottom tagline + CTA -->
+          <div class="startup-bottom">
+            <p class="startup-final-quote">
+              <i class="fas fa-quote-left"></i>
+              &nbsp;We kept the scroll. We changed what fills it.&nbsp;
+              <i class="fas fa-quote-right"></i>
+            </p>
+            <a href="https://zuvik.netlify.app/" target="_blank" class="btn-primary">
+              See Zuvik <i class="fas fa-external-link-alt" style="margin-left:6px; font-size:0.8rem;"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       EDUCATION & EXPERIENCE
+  ============================== -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title">Education & <span>Experience</span></h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-tag education-tag">🎓 Education</span>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p class="timeline-place">Akash Group of Institutions, Bengaluru</p>
+            <p class="timeline-date">2024 — Expected 2027</p>
+            <p>Studying core Computer Science subjects including Data Structures, DBMS, Networking, Web Development and more. Active participant in tech clubs and events.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-tag role-tag">💼 Role</span>
+            <h3>Student Coordinator — Anveshak Tech Club</h3>
+            <p class="timeline-place">Akash Group of Institutions</p>
+            <p class="timeline-date">Current</p>
+            <p>Coordinating technical events, workshops and seminars. Managing logistics, team collaboration and ensuring smooth execution of all tech activities on campus.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-tag role-tag">📚 Role</span>
+            <h3>Member & Treasurer — English Literature Club (ECLIF)</h3>
+            <p class="timeline-place">Akash Group of Institutions</p>
+            <p class="timeline-date">Current</p>
+            <p>Serving as Treasurer of ECLIF. Organizing literature events, managing club finances, coordinating intra-college competitions and encouraging creative writing among students.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-tag achievement-tag">🏅 Achievement</span>
+            <h3>Inter-College Hackathon — Shortlisted</h3>
+            <p class="timeline-place">Regional Coding Competition</p>
+            <p class="timeline-date">2024</p>
+            <p>Developed and deployed a functional solution under high-pressure conditions. Achieved shortlisted status demonstrating rapid prototyping and problem-solving abilities.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-tag volunteer-tag">🤝 Volunteer</span>
+            <h3>Technical & Literature Event Organizer</h3>
+            <p class="timeline-place">Intra-College Events</p>
+            <p class="timeline-date">2024 — Present</p>
+            <p>Participated in organizing multiple technical and literature intra-college events. Managed technical setups, coordinated participants, and ensured seamless event execution.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-tag internship-tag">💻 Internship</span>
+            <h3>Frontend Web Development Intern</h3>
+            <p class="timeline-place">CODTECH IT Solutions Pvt. Ltd.</p>
+            <p class="timeline-date">April 2026 — May 2026</p>
+            <p>Completing a 4-week frontend internship building real-world projects: Quiz App, Real-Time Chat App, Portfolio Website and E-Learning Platform UI.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       INTERESTS SECTION
+  ============================== -->
+  <section id="interests" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Interests & <span>Hobbies</span></h2>
+
+      <div class="interests-grid">
+
+        <div class="interest-card fade-in">
+          <div class="interest-icon">📖</div>
+          <h3>Published Poet</h3>
+          <p>
+            Author of three poetry books:
+            <strong>"Heavy With Light"</strong>,
+            <strong>"Where It Hurts to Feel"</strong>, and
+            <strong>"Everything You Left Behind"</strong>.
+            Available directly from the author's website <a href="https://pbcpoetry.netlify.app/" target="_blank">PBCPoetry</a>.
+          </p>
+        </div>
+
+        <div class="interest-card fade-in">
+          <div class="interest-icon">🌐</div>
+          <h3>Tech Community Leader</h3>
+          <p>
+            Serving as a Senior Member and Guider in a private tech community.
+            Actively sharing technical knowledge, guiding learners and staying at
+            the forefront of emerging technologies.
+          </p>
+        </div>
+
+        <div class="interest-card fade-in">
+          <div class="interest-icon">🎵</div>
+          <h3>Music & Lyrics</h3>
+          <p>
+            Writing song lyrics as a creative outlet. Music appreciation plays a
+            big role in the creative process — complementing the lyric writing
+            and poetry work.
+          </p>
+        </div>
+
+        <div class="interest-card fade-in">
+          <div class="interest-icon">🚴</div>
+          <h3>Fitness & Leisure</h3>
+          <p>
+            Cycling and skating for fitness and leisure. Staying active helps
+            maintain mental clarity and creative energy for both technical work
+            and writing.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       CONTACT SECTION
+  ============================== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Get In <span>Touch</span></h2>
+      <p class="section-sub">Open to collaborations, opportunities and interesting conversations.</p>
+
+      <div class="contact-grid">
+
+        <div class="contact-info fade-in">
+          <h3>Let's Connect</h3>
+          <p>Whether you want to discuss a project, a collaboration, or just want to say hi — my inbox is always open.</p>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:bharathchowdary1826@gmail.com">bharathchowdary1826@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <strong>Phone</strong>
+              <a href="tel:+918431253489">+91 8431253489</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+            <div>
+              <strong>LinkedIn</strong>
+              <a href="https://hostlink.site/6qPf6U" target="_blank">View Profile</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <strong>GitHub</strong>
+              <a href="https://github.com/pbc198912161" target="_blank">pbc198912161</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap fade-in">
+          <form id="contact-form" onsubmit="handleFormSubmit(event)">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="Project Collaboration" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Tell me about your project or idea..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="width:100%">
+              Send Message <i class="fas fa-paper-plane" style="margin-left:8px"></i>
+            </button>
+            <p id="form-success" class="form-success hidden">✅ Thanks! I'll get back to you soon.</p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       FOOTER
+  ============================== -->
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2026 <strong>P Bharath Chowdary</strong>. Designed & Built by me.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/pbc198912161"     target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://hostlink.site/6qPf6U"         target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:bharathchowdary1826@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- back to top -->
+  <button id="back-to-top" onclick="scrollToTop()" title="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
