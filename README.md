@@ -65,4 +65,11 @@ A responsive single-page personal portfolio website built using HTML, CSS, and J
 3. No installation or setup required
 
 ## Output Screenshots
-<!-- Paste your screenshots below -->
+<!-- Paste your screensh<img width="1920" height="1080" alt="Screenshot 2026-04-21 140136" src="https://github.com/user-attachments/assets/7904216c-189b-4778-b66f-cea234006ae4" />
+<img width="1920" height="1080" alt="Screenshot 2026-04-21 140131" src="https://github.com/user-attachments/assets/2a72248a-1636-4ff1-8ff5-02cb4347f5d8" />
+<img width="1920" height="1080" alt="Screenshot 2026-04-21 140124" src="https://github.com/user-attachments/assets/947c793a-de92-4ae5-928c-72ecbe2c3c06" />
+<img width="1920" height="1080" alt="Screenshot 2026-04-21 140112" src="https://github.com/user-attachments/assets/27334721-2fe4-49b4-92af-0ad56f9a277a" />
+<img width="1920" height="1080" alt="Screenshot 2026-04-21 140100" src="https://github.com/user-attachments/assets/62cad0fd-2e23-4226-bd11-8ab7b48ab222" />
+<img width="1920" height="1080" alt="Screenshot 2026-04-21 140049" src="https://github.com/user-attachments/assets/c6ae2784-4728-4dbc-8135-2b44d69942a5" />
+<img width="1920" height="1080" alt="Screenshot 2026-04-21 140039" src="https://github.com/user-attachments/assets/fcb38578-4d1f-41d3-ab46-28b5bfb87283" />
+ots below -->
